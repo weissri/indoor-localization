@@ -1,3 +1,6 @@
+%% This code reads the quaternion output from a Kalman filter
+%% and displays the rotated coordinate system
+
 %% clear all data
 clear all;
 close all;
