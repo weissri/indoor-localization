@@ -40,7 +40,7 @@ my = data(:,9);
 mz = data(:,10);
 
 mag = sqrt(ax.^2+ay.^2+az.^2);
-magNoG = mag - mean(mag);
+magNoG = mag - mean(mag);  % the mean is not necessarily = gravity
 
 %% Filter
 
